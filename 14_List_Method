@@ -1,0 +1,13 @@
+data = [1, 23, -2, -88, 3, 4]  # শুধু সংখ্যা রাখলাম
+data.append(4)  # শেষে 4 যোগ করলাম
+
+data.sort()     # inplace sorting, return করে না
+print(data)     # এখন পুরোটা print করলাম
+data.sort(reverse=True)
+print(data)
+data.reverse()
+print(data)
+data.remove(23)
+print(data)
+data.pop(2)
+print(data)
